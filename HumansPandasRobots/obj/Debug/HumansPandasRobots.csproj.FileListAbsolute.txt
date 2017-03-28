@@ -1,0 +1,6 @@
+c:\users\hanna\documents\visual studio 2017\Projects\HumansPandasRobots\HumansPandasRobots\bin\Debug\HumansPandasRobots.exe.config
+c:\users\hanna\documents\visual studio 2017\Projects\HumansPandasRobots\HumansPandasRobots\bin\Debug\HumansPandasRobots.exe
+c:\users\hanna\documents\visual studio 2017\Projects\HumansPandasRobots\HumansPandasRobots\bin\Debug\HumansPandasRobots.pdb
+c:\users\hanna\documents\visual studio 2017\Projects\HumansPandasRobots\HumansPandasRobots\obj\Debug\HumansPandasRobots.csprojResolveAssemblyReference.cache
+c:\users\hanna\documents\visual studio 2017\Projects\HumansPandasRobots\HumansPandasRobots\obj\Debug\HumansPandasRobots.exe
+c:\users\hanna\documents\visual studio 2017\Projects\HumansPandasRobots\HumansPandasRobots\obj\Debug\HumansPandasRobots.pdb
