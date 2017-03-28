@@ -19,5 +19,9 @@ namespace HumansPandasRobots
             Console.WriteLine($"Hello, my name is {this.Name}");
         }
 
+        public void DisplayType()
+        {
+            Console.WriteLine($"I and of the type {GetType().Name}");
+        }
     }
 }

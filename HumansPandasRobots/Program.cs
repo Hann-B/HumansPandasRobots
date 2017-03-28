@@ -30,7 +30,7 @@ namespace HumansPandasRobots
             Console.WriteLine(elliott.Eat());
             Console.WriteLine(elliott.GoToSleep());
             Console.WriteLine(elliott.WakeUp());
-
+            elliott.DisplayType();
             Panda ceail = new Panda()
             {
                 Name = "Ceail",
@@ -42,6 +42,7 @@ namespace HumansPandasRobots
             Console.WriteLine(ceail.Eat());
             Console.WriteLine(ceail.GoToSleep());
             Console.WriteLine(ceail.WakeUp());
+            ceail.DisplayType();
 
             Robot titan = new Robot()
             {
@@ -54,6 +55,7 @@ namespace HumansPandasRobots
             Console.WriteLine(titan.StartUp());
             Console.WriteLine(titan.ShutDown());
             Console.WriteLine(titan.IsATerminator());
+            ceail.DisplayType();
 
             Console.WriteLine("");
 
