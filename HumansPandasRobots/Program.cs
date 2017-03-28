@@ -10,15 +10,23 @@ namespace HumansPandasRobots
     {
         static void Main(string[] args)
         {
+        List<Thoughful> ListAll = new List<Thoughful>();
+            ListAll.Add(new Panda());
+            ListAll.Add(new Human());
+            ListAll.Add(new Robot());
+        List<Living> LivingList = new List<Living>();
+            LivingList.Add(new Panda());
+            LivingList.Add(new Human());
+
 
             Human elliott = new Human()
             {
                 Name = "Elliott",
                 Food = "Lasagna",
             };
-
-            Console.WriteLine(elliott.Name);
-            Console.WriteLine(elliott.DisplayGreeting());
+            
+            elliott.DisplayName();
+            elliott.DisplayGreeting();
             Console.WriteLine(elliott.Eat());
             Console.WriteLine(elliott.GoToSleep());
             Console.WriteLine(elliott.WakeUp());
@@ -29,8 +37,8 @@ namespace HumansPandasRobots
                 Food = "Bamboo",
             };
 
-            Console.WriteLine(ceail.Name);
-            Console.WriteLine(ceail.DisplayGreeting());
+            ceail.DisplayName();
+            ceail.DisplayGreeting();
             Console.WriteLine(ceail.Eat());
             Console.WriteLine(ceail.GoToSleep());
             Console.WriteLine(ceail.WakeUp());
@@ -41,12 +49,15 @@ namespace HumansPandasRobots
                 TerminatorHere = false,
             };
 
-            Console.WriteLine(titan.Name);
-            Console.WriteLine(titan.DisplayGreeting());
+            titan.DisplayName();
+            titan.DisplayGreeting();
             Console.WriteLine(titan.StartUp());
             Console.WriteLine(titan.ShutDown());
             Console.WriteLine(titan.IsATerminator());
 
+            Console.WriteLine("");
+
+            
 
         }
     }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HumansPandasRobots
 {
-    class Panda:Living
+    interface IShowName
     {
+        void DisplayName();
+        void DisplayGreeting();
     }
 }
